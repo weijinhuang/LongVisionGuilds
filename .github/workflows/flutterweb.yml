@@ -27,7 +27,7 @@ jobs:
           git config --global user.name h.w.j
           git status
           # change this remote url for examle your remote url is git@github.com:weijinhuang/LongVisionGuilds.git then the following:
-          git remote add origin https://${{secrets.commit_secret}}git@github.com/weijinhuang/LongVisionGuilds.git
+          git remote add origin https://${{secrets.commit_secret}}@github.com/weijinhuang/LongVisionGuilds.git
           git checkout -b gh-pages
           git add --all
           git commit -m "update"
